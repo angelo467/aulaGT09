@@ -1,0 +1,7 @@
+Plataformas:  *w3Schools
+              *mdn
+              *flexbox froggy
+ 
+semantica e nao semantica
+
+<link rel="stylesheet" href="./style.css">  
