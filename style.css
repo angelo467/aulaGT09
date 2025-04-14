@@ -6,10 +6,14 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+    background-color: #03235e54;
 
 }
 header{
     background-color: #413838;
+    position: fixed;
+    align-items: center;
+
 }
 
 .div-card {
@@ -65,15 +69,24 @@ h2 > a{
     width: 40%;
 }
 .form-header input{
-    height: 40px;
-    width: 70%;
+    height: 2px;
+    width: 100%;
 
 }
+
 .form-header button{
     padding: 12px;
 }
+.form-header{
+    order: 2;
+}
 @media screen  and ( width <= 998px ) {
-    
+    header {
+        flex-wrap: wrap;
+    }
+    .lista-icone{
+
+    }
 }
 
 
